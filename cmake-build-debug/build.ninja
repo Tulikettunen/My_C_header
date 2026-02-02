@@ -52,7 +52,7 @@ build cmake_object_order_depends_target_My_C_header: phony || .
 build CMakeFiles/My_C_header.dir/My_C_header.c.obj: C_COMPILER__My_C_header_unscanned_Debug C$:/Users/tuuli/CLionProjects/My_C_header/My_C_header.c || cmake_object_order_depends_target_My_C_header
   DEP_FILE = CMakeFiles\My_C_header.dir\My_C_header.c.obj.d
   FLAGS = -g -fdiagnostics-color=always
-  INCLUDES = -IC:/Users/tuuli/CLionProjects/My_C_header/Own_headers -IC:/Users/tuuli/CLionProjects/Own_headers
+  INCLUDES = -IC:/Users/tuuli/CLionProjects/My_C_header/Own_headers -IC:/Users/tuuli/CLionProjects/Own_headers -IC:/Users/tuuli/CLionProjects/My_C_header
   OBJECT_DIR = CMakeFiles\My_C_header.dir
   OBJECT_FILE_DIR = CMakeFiles\My_C_header.dir
 
