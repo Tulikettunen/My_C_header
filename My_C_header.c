@@ -4,6 +4,8 @@
 #include <stdio.h>
 #include "My_C_header.h"
 
+#include <string.h>
+
 //INPUT VIRHEENKÄSITTELY
 int read_integer(void){
     int num = 0;
@@ -28,6 +30,13 @@ int read_range(int low, int high){
     }
     while(getchar() != '\n');   // virheen käsittely
     return user_input;
+}
+
+
+void remove_linefeed(char *name){
+    if(name[strlen(name) - 1] == '\n') {
+        name[strlen(name) - 1] = '\0';
+    }
 }
 
 // Improved version with extra character check, does not allow extra characters after integer input, does not work yet, fucking pain in the ass,
