@@ -15,6 +15,7 @@
 //INPUT VIRHEENKÄSITTELY
 int read_integer(void);
 int read_range(int low, int high);
+void remove_linefeed(char *name);
 
 //DICE ROLLING FUNCTIONS
 int roll_dice_X(int dice_X);
